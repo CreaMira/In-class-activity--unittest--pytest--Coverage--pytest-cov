@@ -1,4 +1,5 @@
 def is_leap_year(years):
+
     divisible_4 = years%4
 
     if divisible_4 == 0:
@@ -23,8 +24,3 @@ def is_leap_year(years):
     else:
         #print(years, "is not leap year")
         return False
-
-is_leap_year(0)
-is_leap_year(100)
-is_leap_year(400)
-is_leap_year(300)
