@@ -24,3 +24,9 @@ def is_leap_year(years):
     else:
         #print(years, "is not leap year")
         return False
+
+if __name__ == '__main__':
+    is_leap_year(1)
+    is_leap_year(100)
+    is_leap_year(8)
+    is_leap_year(400)
